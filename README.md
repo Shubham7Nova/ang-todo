@@ -33,3 +33,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 - Added Bootstrap min js in angular.json -> architect -> build -> scripts : `"scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]`
 - Added jquery.js in angular.json -> architect -> build -> scripts
 - Generated new component todo in components folder: `ng generate component components/todo`
+- Added prettier using: `npm install --save-dev --save-exact prettier`
+- Run prettier using; `npx prettier --write .`
