@@ -27,3 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 - Download npm and Node.js
 - Download Angular CLI using: `npm install -g @angular/cli`
 - Created project using: `ng new ang-todo`
+- Added Bootstrap to the project using: `npm install bootstrap`
+- Added jquery to the project using: `npm install jquery`
+- Added Bootstrap min css in angular.json -> architect -> build -> styles : `"node_modules/bootstrap/dist/css/bootstrap.min.css"`
+- Added Bootstrap min js in angular.json -> architect -> build -> scripts : `"scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]`
